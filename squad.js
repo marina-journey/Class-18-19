@@ -32,3 +32,6 @@ class Squad {
     return this._squad.map((unit) => unit.clone());
   }
 }
+
+// to do list
+// toggleStatus()

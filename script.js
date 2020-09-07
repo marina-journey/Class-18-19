@@ -31,11 +31,20 @@
 
 // class19
 
-const units = [new Unit('Virus', 200, 500)];
+// const units = [new Unit('Virus', 200, 500)];
 
-units.push(units[0].clone());
-console.log(units);
+// units.push(units[0].clone());
+// console.log(units);
 
-const squad = new Squad(units);
+// const squad = new Squad(units);
 
-console.log(squad);
+// console.log(squad);
+
+const list = new List();
+list.addItem(new Item("First"));
+list.addItem(new Item("Second"));
+list.addItem(new Item("Third"));
+
+setTimeout(() => {
+  list.toggleItem(1);
+}, 1000);
